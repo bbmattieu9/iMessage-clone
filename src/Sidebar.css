@@ -1,11 +1,11 @@
- .sidebar{
+.sidebar {
     flex: 0.35;
     height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
-    border-right: 1px solid green;
-} 
+    border-right: 1px solid lightgray;
+}
 
 .sidebar__header {
     display: flex;
@@ -33,4 +33,17 @@
     border: none;
     background: transparent;
     outline-width: 0;
+}
+
+.sidebar__chats {
+    overflow: scroll;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar__chats {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
