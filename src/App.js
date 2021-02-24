@@ -4,7 +4,7 @@ import Imessage from './Imessage';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Imessage />
     </div>
   );
