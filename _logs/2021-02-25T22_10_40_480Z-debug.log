@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'firebase'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session e05f5c48c2074867
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 verbose stack Error: kill ENOSYS
+7 verbose stack     at process.kill (internal/process/per_thread.js:198:13)
+7 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\signal-exit\index.js:95:15)
+7 verbose stack     at process.emit (events.js:315:20)
+8 verbose cwd C:\Users\ogunmolawm\source\react\imessage-clone
+9 verbose Windows_NT 10.0.18362
+10 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "firebase"
+11 verbose node v12.18.4
+12 verbose npm  v6.14.6
+13 error code ENOSYS
+14 error syscall kill
+15 error errno ENOSYS
+16 error kill ENOSYS
+17 verbose exit [ 1, true ]
